@@ -1,0 +1,23 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+li p{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', Sans-Serif;
+}
+main .cv-sidebar {
+  background: #f5f5f5;
+}
+#profile img {
+  width: 170px;
+}
+
+
+
+
+#skills > div ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
